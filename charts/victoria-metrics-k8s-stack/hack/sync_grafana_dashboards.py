@@ -67,6 +67,19 @@ sources_yaml = [
 allow_dashboards_list = [
     "alertmanager-overview.json",
     "grafana-overview.json",
+    "k8s-resources-cluster.json",
+    "k8s-resources-namespace.json",
+    "k8s-resources-node.json",
+    "k8s-resources-pod.json",
+    "k8s-resources-workload.json",
+    "k8s-resources-workloads-namespace.json",
+    "namespace-by-pod.json",
+    "namespace-by-workload.json",
+    "node-rsrc-use.json",
+    "persistentvolumesusage.json",
+    "pod-total.json",
+    "workload-total.json",
+    
 ]
 
 dashboards_destination = "../templates/grafana/dashboards"
